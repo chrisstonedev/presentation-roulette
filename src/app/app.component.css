@@ -1,0 +1,14 @@
+.image-preview-row {
+  display: flex;
+}
+
+.image-preview {
+  height: 100px;
+  object-fit: cover;
+  width: 100px;
+}
+
+.image-preview:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
